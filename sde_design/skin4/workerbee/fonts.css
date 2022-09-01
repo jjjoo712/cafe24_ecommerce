@@ -1,0 +1,46 @@
+
+/* 특정국가에 폰트노출 문제로 폰트소스는 직접 내장했음. */
+
+@font-face {
+  font-family: 'le_light';
+  src: url('/workerbee/fonts/LeferiPoint-WhiteObliqueA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'le_bold';
+  src: url('/workerbee/fonts/LeferiPoint-BlackObliqueA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Chosunilbo_myungjo';
+  src: url('/workerbee/fonts/Chosunilbo_myungjo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: '3Light';
+  src: url('./font/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '4Regular';
+  src: url('./font/S-CoreDream-4Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '5Medium';
+  src: url('./font/S-CoreDream-5Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

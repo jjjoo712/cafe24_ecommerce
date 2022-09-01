@@ -1,0 +1,128 @@
+
+
+
+
+<div id="header">
+    <div class="promotionBanner">
+        <a href="http://pepez.cafe24.com/product/project.html?cate_no=54" class="bannerLink">	
+            <p>[할인안내] 추석 선물세트 사전주문 SALE Up to 15% OFF</p><!-- 원하는 배너 이미지로 변경 -->
+        </a>
+        <a href="#none" class="btnClose"><img src="/web/bee/closeBtn.gif" alt="배너 닫기" /></a>
+    </div>
+
+    <div class="website">
+        <ul>
+            <li><a href="#none"><i class="xi-instagram"></i></a></li>
+            <li><a href="#none"><i class="xi-youtube-play"></i></a></li>
+            <li class="facebook"><a href="#none">facebook</a></li>
+        </ul>
+    </div>
+
+
+
+  <div class="inner" >
+      <div class="topArea my-4">
+          <h1 module="Layout_LogoTop ">
+             
+              <a href="/index.html"><img src="/workerbee/img/title.png" alt=""></a>
+          </h1>
+
+          <div id="category" module="Layout_category" class="mt-2">
+            <!--@css(/css/module/layout/category.css)-->
+            <!--@js(/js/module/layout/category.js)-->
+            <div class="position">
+                <ul>
+                    <li><a href="{$link_product_list}">{$name_or_img_tag}</a></li>
+                    <li><a href="{$link_product_list}">{$name_or_img_tag}</a></li>
+                    <li><a href="{$link_product_list}">{$name_or_img_tag}</a></li>
+                    <li><a href="{$link_product_list}">{$name_or_img_tag}</a></li>
+                    <li><a href="{$link_product_list}">{$name_or_img_tag}</a></li>
+                    <li><a href="{$link_product_list}">{$name_or_img_tag}</a></li>
+                    <li class="event"><a href="http://pepez.cafe24.com/product/project.html?cate_no=50">{$name_or_img_tag}</a>
+                        <ul class="eventMenu" module="Layout_project">
+                            <li><a href="/product/project.html{$param}">{$category_text}</a></li>
+                            <li><a href="/product/project.html{$param}">{$category_text}</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+           
+        </div>
+      
+       <div class="right">
+            <div class="mypage">
+                <!-- <button module="Layout_statelogoff">
+                    로그인              
+                </button>
+                <button module="Layout_stateLogon">                  
+                    로그아웃
+                </button> -->
+                <div class="mt-2">
+                    <div  class="logoff me-3 d-flex">
+                        <ul module="Layout_statelogoff">
+                            <li><a href="/member/login.html" class="log">LOGIN</a></li>
+                            <li><a href="/member/join.html">JOIN</a></li>
+                            <li><a class="{$board_display|display}" href="/board/index.html">MYPAGE</a></li>                          
+                        </ul>
+                        <ul module="Layout_stateLogon">
+                            <li><a href="{$action_logout}" class="log">LOGOUT</a></li>
+                            <li><a href="/order/basket.html">BAG<span class="count {$basket_count_display|display} {$basket_count_display_class}"><span class="{$basket_count_class}">{$basket_count}</span></span></a></li>
+                            <li><a href="/myshop/index.html">MYPAGE</a></li>                           
+                        </ul>                        
+                        <div >
+                            <button id="searchBtn">SEARCH</button>                            
+                            <div class="position-absolute searchDiv">
+                                <div module="Layout_SearchHeader">
+            
+            
+                                <!--$product_page=/product/detail.html
+                                $category_page=/product/list.html-->
+                        
+                                <fieldset>
+                                    <legend>검색</legend>
+                                    {$form.keyword}<a onclick="{$action_search_submit}">SEARCH</a>
+                                    <ul class="autoDrop" id="{$search_auto_id}"></ul>
+                                    </fieldset>
+                            </div>
+
+                           </div>
+                        
+                    </div>
+
+                    
+
+                  </div>
+      
+                </div>
+            </div>
+       </div>
+
+       
+    
+
+            <!-- <div module="Layout_SearchHeader">
+             
+             
+                  <!--$product_page=/product/detail.html
+                  $category_page=/product/list.html-->
+           
+           <!-- <fieldset>
+                  <legend>검색</legend>
+                  {$form.keyword}<input type="image" src="workerbee/img/search.png" alt="검색" onclick="{$action_search_submit}" /><ul class="autoDrop" id="{$search_auto_id}"></ul></fieldset>
+          </div>  --> 
+      </div>
+  
+     
+  
+      
+  
+      
+      
+  
+      
+  
+     
+  </div>
+
+  
+  </div>
