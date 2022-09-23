@@ -1,83 +1,139 @@
-
-
 /* common */
 
-body{font-family: 'le_light'}
-a:hover{text-decoration: none;}
+body {
+  font-family: "le_light";
+}
 
+a:hover {
+  text-decoration: none;
+}
 
 /* header promotion banner */
-.promotionBanner { position:relative; overflow:hidden; text-align:center; background:#ef6f2e; line-height: 2;}
-.promotionBanner p{color:white;font-weight: bold; margin-top:5px;}
-.promotionBanner .bannerLink { display:block; }
-.promotionBanner .btnClose { position:absolute; top:5px; right:10px; margin-left:590px; margin-top:5px; }
-
-
-
-/* header */
-
-#header a:hover{text-decoration: none; color:orange;}
-#header h1 a img{width:70%;}
-#header .inner{  
-  z-index: 10000;
-  background-color: white;
-  margin:unset;
-  width:100%;
-  font-family: 'le_light'
-}
-#header .topArea{ display: flex; justify-content: space-between;}
-#header .topArea h1{margin:0 2rem}
-#header .position > ul{justify-content: space-between;}
-#header .position ul a{font-size: 1.3rem; padding:0 1rem;}
-#header .mypage{display: flex; flex-direction: column;}
-#header .right{}
-
-#header .event .eventMenu{
-  display: block;
-  opacity: 0;
-  width:11rem;
-  transition: .5s;
+.promotionBanner {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background: #ef6f2e;
   line-height: 2;
 }
 
-#header .event:hover .eventMenu{ opacity: 1; }
-#header .event .eventMenu li a{font-size: 0.8rem; }
-
-
-
-#header input[type=text]{
-  border-color:transparent;
-  border-bottom:2px solid #222;
-  background-color: transparent;
-  width:200px;  
+.promotionBanner p {
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
 }
-#header input[type=image]{ width:70%;}
 
+.promotionBanner .bannerLink {
+  display: block;
+}
 
-/* website icon */
-.website{
-  position:fixed;
-  top:30%;
-  right:-20px;
+.promotionBanner .btnClose {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  margin-left: 590px;
+  margin-top: 5px;
+}
+
+/* header */
+
+#header a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+#header h1 a img {
+  width: 70%;
+}
+
+#header .inner {
   z-index: 10000;
+  background-color: white;
+  margin: unset;
+  width: 100%;
+  font-family: "le_light";
 }
-.website ul{
-  transform:rotate(90deg);
+
+#header .topArea {
   display: flex;
   justify-content: space-between;
- 
 }
- .website li{
-   font-size: 1rem;
-    padding-right:10px;
-  }
 
- .website li:hover a{font-weight: bold; color:unset;}
+#header .topArea h1 {
+  margin: 0 2rem;
+}
 
+#header .position > ul {
+  justify-content: space-between;
+}
+
+#header .position ul a {
+  font-size: 1.3rem;
+  padding: 0 1rem;
+}
+
+#header .mypage {
+  display: flex;
+  flex-direction: column;
+}
+
+#header .right {
+}
+
+#header .event .eventMenu {
+  display: block;
+  opacity: 0;
+  width: 11rem;
+  transition: 0.5s;
+  line-height: 2;
+}
+
+#header .event:hover .eventMenu {
+  opacity: 1;
+}
+
+#header .event .eventMenu li a {
+  font-size: 0.8rem;
+}
+
+#header input[type="text"] {
+  border-color: transparent;
+  border-bottom: 2px solid #222;
+  background-color: transparent;
+  width: 200px;
+}
+
+#header input[type="image"] {
+  width: 70%;
+}
+
+/* website icon */
+.website {
+  position: fixed;
+  top: 30%;
+  right: -20px;
+  z-index: 10000;
+}
+
+.website ul {
+  transform: rotate(90deg);
+  display: flex;
+  justify-content: space-between;
+}
+
+.website li {
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+.website li:hover a {
+  font-weight: bold;
+  color: unset;
+}
 
 /* search btn */
 
-.searchDiv{
+.searchDiv {
   left: 0;
   right: 0;
   top: 100%;
@@ -90,73 +146,91 @@ a:hover{text-decoration: none;}
   transition: 0.5s;
 }
 
-#searchBtn{
-  margin-left:0.5rem;
-  font-family : 'le_light';
+#searchBtn {
+  margin-left: 0.5rem;
+  font-family: "le_light";
   background-color: transparent;
   font-size: 1rem;
-
 }
-#keyword + a{
+
+#keyword + a {
   margin-left: 10px;
   font-size: 1.3rem;
   font-weight: bold;
   cursor: pointer;
 }
 
-.show .searchDiv{
+.show .searchDiv {
   opacity: 1;
   visibility: visible;
   z-index: 2;
 }
-.show{
+
+.show {
   overflow-y: hidden;
 }
-.show #searchBtn{
-  font-weight: bold;
-  color:orange;
-}
 
+.show #searchBtn {
+  font-weight: bold;
+  color: orange;
+}
 
 /* logon 상태 */
 
-.logon .people{position: relative;}
-.logon .people > ul{
+.logon .people {
+  position: relative;
+}
+
+.logon .people > ul {
   position: absolute;
-  top:100%;left:0;right:0;
-  width:100%;height:0;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0;
   overflow: hidden;
   background-color: #fff5;
 }
-.logon .people:hover > ul{
-  height:auto;
-  border:1px solid #5555;
+
+.logon .people:hover > ul {
+  height: auto;
+  border: 1px solid #5555;
 }
 
-.mypage .logoff ul{
+.mypage .logoff ul {
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
-  font-family: 'le_light'
+  font-family: "le_light";
 }
 
 /* logoff 상태 */
 
-.logoff li{padding:0 0.5rem;}
+.logoff li {
+  padding: 0 0.5rem;
+}
 
-.logoff li .count{padding-left: 2px; color:orange;}
-
+.logoff li .count {
+  padding-left: 2px;
+  color: orange;
+}
 
 /* main */
 
-#main { background-color: #fff7;}
+#main {
+  background-color: #fff7;
+}
 
-.innermain{ width: 80%; margin: 100vh auto 10vw;}
-.mainlogo img{
-  position:fixed;
+.innermain {
+  width: 80%;
+  margin: 100vh auto 10vw;
+}
+
+.mainlogo img {
+  position: fixed;
   z-index: -1;
-  left:0;
-  bottom:3rem;
+  left: 0;
+  bottom: 3rem;
   width: 100%;
 }
 
@@ -168,108 +242,178 @@ a:hover{text-decoration: none;}
 }
 
 #main .ec-base-product ul.grid2 li .thumbnail {
-  width:auto;
-  text-align:left; margin:0; }
+  width: auto;
+  text-align: left;
+  margin: 0;
+}
 
-#main .ec-base-product .spec li{margin-top: 1%;}
-#main #boardArea{display: none;}
+#main .ec-base-product .spec li {
+  margin-top: 1%;
+}
 
+#main #boardArea {
+  display: none;
+}
 
 /* main slide bar custom */
 
-#main .smart-banner-wrapper.square .bx-pager{
-      display: flex;
-      justify-content: flex-end;
-      top: 0;
-      right: 10px;
-      flex-direction: column;
-      height: 10%;
-      align-items: flex-end;
-      margin-top:92px;
+#main .smart-banner-wrapper.square .bx-pager {
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  right: 10px;
+  flex-direction: column;
+  height: 10%;
+  align-items: flex-end;
+  margin-top: 92px;
 }
 
-#main .smart-banner-wrapper.square .bx-pager.bx-default-pager a{
-  height:50px;
-  width:3px;
-
-  
-}
-#main .smart-banner-wrapper.square .bx-pager.bx-default-pager a.active{
-  
+#main .smart-banner-wrapper.square .bx-pager.bx-default-pager a {
+  height: 50px;
+  width: 3px;
 }
 
-#main .smart-banner-bx-wrapper .bx-pager-item{padding-bottom:20px;}
+#main .smart-banner-wrapper.square .bx-pager.bx-default-pager a.active {
+}
+
+#main .smart-banner-bx-wrapper .bx-pager-item {
+  padding-bottom: 20px;
+}
 
 /* main 베스트상품 */
-#pro1{}
-
-#main .ec-base-product .prdList{ height:2560px;}
-#main .gridBox1{
-  top:0;left:0;  padding:0;
-  margin-top:60px;
-}
-#main .gridBox2{top:0;left:680px; margin-top:225px;}
-#main .gridBox3{top:856px;left:0;}
-#main .gridBox4{top:1081px;left:680px;}
-#main .gridBox5{top:1712px;left:0px;}
-#main .gridBox6{top:1937px;left:680px;}
-
-#main .ec-base-product .prdList .thumbnail a img{
-  width:350px;height:500px;object-fit: cover;
+#pro1 {
 }
 
-#main .bestsibling .description{
-  position:absolute; width:90%;bottom:25px;left:0;
-  z-index: 15;}
+#main .ec-base-product .prdList {
+  height: 2560px;
+}
 
-#main .ec-base-product .prdList .description .name{text-align: unset;}
-#main .ec-base-product .prdList .description .name span{
+#main .gridBox1 {
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin-top: 60px;
+}
+
+#main .gridBox2 {
+  top: 0;
+  left: 680px;
+  margin-top: 225px;
+}
+
+#main .gridBox3 {
+  top: 856px;
+  left: 0;
+}
+
+#main .gridBox4 {
+  top: 1081px;
+  left: 680px;
+}
+
+#main .gridBox5 {
+  top: 1712px;
+  left: 0px;
+}
+
+#main .gridBox6 {
+  top: 1937px;
+  left: 680px;
+}
+
+#main .ec-base-product .prdList .thumbnail a img {
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+}
+
+#main .bestsibling .description {
+  position: absolute;
+  width: 90%;
+  bottom: 25px;
+  left: 0;
+  z-index: 15;
+}
+
+#main .ec-base-product .prdList .description .name {
+  text-align: unset;
+}
+
+#main .ec-base-product .prdList .description .name span {
   font-size: 1rem !important;
   font-weight: bold;
-  font-family: '4Regular';
+  font-family: "4Regular";
 }
 
-#main .instabox{
+#main .instabox {
   background-color: lightgray;
+}
 
+#main .instabox ul {
+  width: 90%;
+  margin: 0 auto;
 }
-#main .instabox ul{
-  width:90%;
-  margin:0 auto;
+
+#main .instabox ul li {
+  margin: 2%;
 }
-#main .instabox ul li{
-  margin:2%;
-}
-.sub{
-  font-family: 'le_light';
+
+.sub {
+  font-family: "le_light";
   text-align: center;
-  margin-top:5%;
+  margin-top: 5%;
 }
-.sub strong{font-size: 2rem;}
 
-#main .exbanner{margin:0 auto;}
+.sub strong {
+  font-size: 2rem;
+}
+
+#main .exbanner {
+  margin: 0 auto;
+}
 
 #main .middle1,
-#main .middle2{width:80%;}
+#main .middle2 {
+  width: 80%;
+}
 
-#main .middle1{margin:10% 0;}
-#main .middle1 .inner{width:50%;margin:unset;}
-#main .middle2 .inner{width:80%;margin:unset;}
+#main .middle1 {
+  margin: 10% 0;
+}
 
-#main .spec li{text-align: center;}
-#main .ec-base-product .prdList .description .name{text-align: center;}
+#main .middle1 .inner {
+  width: 50%;
+  margin: unset;
+}
+
+#main .middle2 .inner {
+  width: 80%;
+  margin: unset;
+}
+
+#main .spec li {
+  text-align: center;
+}
+
+#main .ec-base-product .prdList .description .name {
+  text-align: center;
+}
 
 #main > .ec-base-product ul.grid4 > li .description .icon .button {
   display: flex;
   justify-content: center;
 }
 
-
-
 /* layout */
 
-.bee .ec-base-product .spec li:nth-child(2) span{display: none;}
-.bee .ec-base-product .spec li:first-child{display: none;}
+.bee .ec-base-product .spec li:nth-child(2) span {
+  display: none;
+}
+
+.bee .ec-base-product .spec li:first-child {
+  display: none;
+}
+
 .bee .ec-base-product .prdList .thumbnail .prdImg {
   position: relative;
   width: 500px;
@@ -290,11 +434,11 @@ a:hover{text-decoration: none;}
 
 .bee .xans-product-menupackage .title {
   text-align: center;
-  margin:3rem 0;
+  margin: 3rem 0;
 }
 
-.bee .ec-base-product ul.grid3 > li{
-  width:unset
+.bee .ec-base-product ul.grid3 > li {
+  width: unset;
 }
 
 .bee .ec-base-product .prdList {
@@ -305,86 +449,104 @@ a:hover{text-decoration: none;}
   text-align: center;
 }
 
-
 /* footer */
 
-#footer .ftBox{
+#footer .ftBox {
   font-size: 0.8rem;
   line-height: 2;
 }
 
-#footer{
+#footer {
   background-color: white;
   border-bottom: unset;
   opacity: 0.8;
 }
 
-#footer .footerIn1{
-  width:33.3%;
+#footer .footerIn1 {
+  width: 33.3%;
   display: inline-block;
   padding: 30px 25px 25px;
-  border-right:1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
   font-size: 12px;
- 
 }
-#footer .footerIn2{
-  width:33.3%;
+
+#footer .footerIn2 {
+  width: 33.3%;
   display: inline-block;
   padding: 30px 25px 25px;
-  border-right:1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
   font-size: 12px;
 }
-#footer .footerIn3{
-  width:33.3%;
+
+#footer .footerIn3 {
+  width: 33.3%;
   display: inline-block;
-  padding:30px 25px 25px;
+  padding: 30px 25px 25px;
   font-size: 12px;
 }
-#footer .copyright{
-  padding:15px;
+
+#footer .copyright {
+  padding: 15px;
   text-align: center;
   font-size: 12px;
-  border-top:1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
   /* background-color: #e8e8e8; */
 }
-#footer .copyright .home{text-align: center;}
 
-#footer .copyright .utilMenu li{padding:0 50px;}
+#footer .copyright .home {
+  text-align: center;
+}
 
-
+#footer .copyright .utilMenu li {
+  padding: 0 50px;
+}
 
 /* 기획전 */
 
-#projectMain .ec-base-product .prdList{height:unset; margin:0;text-align: center;}
-#projectMain .ec-base-product .prdList .thumbnail a img{width:unset;height:unset;}
+#projectMain .ec-base-product .prdList {
+  height: unset;
+  margin: 0;
+  text-align: center;
+}
+
+#projectMain .ec-base-product .prdList .thumbnail a img {
+  width: unset;
+  height: unset;
+}
+
 #projectMain .ec-base-product .spec li:nth-child(1),
-#projectMain .ec-base-product .spec li:nth-child(2){display: none;}
-#projectMain .menuCategory > li{display: none;}
+#projectMain .ec-base-product .spec li:nth-child(2) {
+  display: none;
+}
 
+#projectMain .menuCategory > li {
+  display: none;
+}
 
+#anchorBoxId_92 .ec-base-product .spec {
+  float: none !important;
+}
 
-#anchorBoxId_92 .ec-base-product .spec{float:none !important;}
+.button,
+.wish {
+  display: none;
+}
 
-.button,.wish{display:none}
-
-.ec-base-product .prdList .thumbnail .icon{
+.ec-base-product .prdList .thumbnail .icon {
   display: none !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* 기획전 내용 */
-#contents .xans-product-headcategory{width:1280px; margin:0 auto;}
-#container,#contents{width:100%}
-.ec-base-paginate li{border:none !important;}
+#contents .xans-product-headcategory {
+  width: 1280px;
+  margin: 0 auto;
+}
 
+#container,
+#contents {
+  width: 100%;
+}
+
+.ec-base-paginate li {
+  border: none !important;
+}
