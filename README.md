@@ -1,6 +1,5 @@
 # cafe24_이커머스 제작노트
 
-### https://pepez.cafe24.com/
 
 ### - OVERVIEW
 <img width="700" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/33850f7f-4e4f-46ed-8812-293a1c94f67d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220923T081319Z&X-Amz-Expires=86400&X-Amz-Signature=5eb7c5cdaee87001b17dfb3cebda1a92e247bbf01aa832f2756edfa75f9089c6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
